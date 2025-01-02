@@ -14,6 +14,7 @@ If you find any bugs kindly share as id love to test my bug fixing capabilitys.
 
 
 
-// Whats to come //
+* Whats to come *
+* 
 Im going to add Popups for the **CONTACT** and **ABOUT** button using javaScript
 Hopefully make it all smoother and add some responsiveness for mobile use.

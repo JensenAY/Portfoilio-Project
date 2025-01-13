@@ -1,17 +1,13 @@
 /* CONTACT BUTTONS */
 
-.contact-open {
-  visibility: show !important;
-}
-
 #popup-background {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
   position: fixed;
   margin-left: -470px;
   margin-top: -2px;
-  visibility: hidden;
+  display: none;
 }
 
 .popup {
@@ -127,13 +123,13 @@
 /* ABOUT BUTTON STYLING */
 
 #about-popup-background {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
   position: fixed;
-  margin-left: 0;
-  margin-top: -1px;
-  visibility: hidden;
+  margin-left: -470px;
+  margin-top: -2px;
+  display: none;
 }
 
 #about-close {
@@ -151,7 +147,7 @@
 #about-header {
   grid-column: 1 / 8;
   padding-left: 40px;
-  margin-top: -160px;
+  margin-top: 25px;
   color: #532626;
   font-family: "Chelsea Market";
   font-size: 75px;
@@ -166,7 +162,7 @@
   text-underline-position: from-font;
 }
 
-.about-popup {
+#about-popup {
   grid-template-columns: repeat(12, 100px);
   display: grid;
   background-color: #5a5a5a;
@@ -183,15 +179,16 @@
   left: 650px;
 }
 
-.about-popup-subtext {
-  background-color: rgb(60, 60, 60);
-  width: 900px;
-  height: 514px;
-  margin-left: -610px;
+#text-box {
+  width: 1000px;
+  height: 580px;
+  background-color: rgba(52, 52, 52, 0.728);
+  margin-left: -1060px;
+  margin-top: 160px;
   border-radius: 30px;
 }
 
-.paragraphs {
+.paragraph {
   color: rgb(255, 255, 255);
   padding: 5px 30px;
   color: #ffffff;

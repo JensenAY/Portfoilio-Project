@@ -4,10 +4,10 @@ const aboutPopup = document.getElementById("about-popup-background");
 
 aboutOpenButton.addEventListener("click", () => {
   aboutPopup.style.opacity = 1;
-  aboutPopup.style.visibility = "visible";
+  aboutPopup.style.display = "grid";
 });
 
 aboutCloseButton.addEventListener("click", () => {
   aboutPopup.style.opacity = 0;
-  aboutPopup.style.visibility = "hidden";
+  aboutPopup.style.display = "none";
 });
